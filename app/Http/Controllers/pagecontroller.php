@@ -102,7 +102,7 @@ class pagecontroller extends Controller
 
     public function userabout(){
 
-        return view('project.userabout');
+        return view('project.profile');
     }
 
 

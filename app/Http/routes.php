@@ -87,4 +87,5 @@ Route::get('category/{class}/{subject}' ,['as' => 'subjectcategory' , 'uses' => 
 
 /*****************         End Dhruba            *****************/
 
+
 ?>
