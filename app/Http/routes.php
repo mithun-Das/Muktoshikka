@@ -38,9 +38,12 @@ Route::group(array('middleware' => 'auth'), function()
 
 
 
-		/********************** Dhruba   ******************/
+		/**********************    Dhruba   ******************/
 
 		Route::get('home', ['as' => 'index',   'uses' => 'qfeedcon@index']);
+
+
+		/*********************   END DHRUBA     ******************/
 
 
 });

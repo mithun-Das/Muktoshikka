@@ -46,7 +46,7 @@
     <li><a href="#">Profile</a></li>
     <li><a href="#">Activity</a></li>
      <li role="separator" class="divider"></li>
-    <li><a href="#">Sign out</a></li>
+    <li><a href="logout">Sign out</a></li>
   </ul>
 </div></li>
     </ul>

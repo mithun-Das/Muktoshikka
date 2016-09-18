@@ -52,11 +52,12 @@
      <div class="col-md-4">
      <h4>নতুন ব্লগসমূহ</h4>
      <ul>
-       <li><a>ব্লগ ১ - ইউজার</a></li>
-       <li><a>স্ট্যাটিক রাউটিং </a></li>
-       <li><a>ব্লগ ১ - ইউজার</a></li>
-       <li><a>ব্লগ ১ - ইউজার</a></li>
-       <li><a>ব্লগ ১ - ইউজার</a></li>
+       @for ( $x = 0;$x < 5; $x++ )
+       
+       <li><a href = "{{ route('single_blog',['id' => $data[$x]->id]) }}">{{ $data[$x]->blog_title }}/a></li>
+       
+       @endfor
+
      </ul>
      <hr>
       <h4>টিউটোরিয়াল</h4>

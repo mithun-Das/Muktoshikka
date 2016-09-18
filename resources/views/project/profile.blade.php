@@ -3,9 +3,13 @@
 <div class="prof_body">
 <div class="row">
 	<div class="col-md-2">
-		<div class="pic-thumbnail">
 
-		</div>
+    <div class="pic-thumbnail">
+    
+     <img src= "{{ session('picture') }}">
+
+    </div>
+
 	</div>
 
 	<div class="col-md-10" style=" border-bottom: 1px solid #c4c4c4;background-color:#fff;">

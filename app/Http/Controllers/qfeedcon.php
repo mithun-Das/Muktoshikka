@@ -4,6 +4,7 @@ use Carbon\Carbon;
 use App\answer;
 use Illuminate\Http\Request;
 use DB;
+use App\Blog; 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -14,9 +15,11 @@ class qfeedcon extends Controller
      public function index()
     {
         $user10 = DB::table('question')->get();
+        $data = Blog::all();
 
         return   view('project.home')
-                ->with('user10', $user10);
+                ->with('user10', $user10)
+                ->with('data', $data);
     }
 
 
